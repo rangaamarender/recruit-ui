@@ -1,0 +1,39 @@
+{
+    "contractsData": [
+      {
+        "contractId": "C001",
+        "contractName": "Contract 1",
+        "chargeCode": {
+            "chargeCodeId": "CC01",
+            "tasks": [
+              {
+                "taskId": "T01",
+                "taskDescription": "Task 1 - Description"
+              },
+              {
+                "taskId": "T02",
+                "taskDescription": "Task 2 - Description"
+              }
+            ]
+          }
+      },
+      {
+        "contractId": "C002",
+        "contractName": "Contract 2",
+        "chargeCode": {
+            "chargeCodeId": "CC02",
+            "tasks": [
+              {
+                "taskId": "T03",
+                "taskDescription": "Task 3 - Description"
+              },
+              {
+                "taskId": "T03",
+                "taskDescription": "Task 3 - Description"
+              }
+            ]
+          }
+      }
+    ]
+  }
+  

@@ -1,0 +1,15 @@
+{
+  "locale": "es",
+  "messages": {
+    "emailSubject": "Asunto",
+    "emailBody": "Cuerpo",
+    "sendButton": "Enviar Correo",
+    "languages.en": "English1111",
+    "languages.es": "Spanish1111",
+    "email.required": "Email is required1111"
+  },
+  "validationMessages": {
+    "required": "Este campo es obligatorio",
+    "email": "Formato de correo electrónico inválido"
+  }
+}

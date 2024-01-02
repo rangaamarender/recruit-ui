@@ -1,0 +1,29 @@
+.tabmenu-layout {
+    display: flex;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-left: auto;
+    
+}
+
+.other-actions {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.tab-content {
+    margin-top: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,35 @@
+
+{
+    "personalDetails": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "displayName": "John Doe",
+        "primaryEmailID": "test@gmail.com",
+        "DOB": "2023-10-01",
+        "SSN": "123-11-9999",
+        "DLNumber": "_",
+        "licenseExp": "July-15-2020",
+        "startDate": "July-15-2020",
+        "gender": "MALE",
+        "maritalStatus": "Married",
+        "employeeType": "W2 Employee",
+        "currentStatus": "Active",
+        "invoiceCycle": "_"
+    },
+    "address": {
+        "address1": "---",
+        "address2": "---",
+        "city": "---",
+        "state": "---",
+        "country": "---",
+        "homePhone": "---"
+    },
+    "contactDetails": {
+        "phone": "1234567890",
+        "email": "abc123@gmail.com"
+    }
+}
+
+
+        
+   

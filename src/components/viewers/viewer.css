@@ -1,0 +1,70 @@
+.p-sidebar-right .p-sidebar {
+    width: 78%;
+    height: 100%;
+}
+
+/* SidebarComponent.css */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.sidebar-content {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.sidebar-content-form {
+    height: 70vh;
+}
+
+.sidebar-content-form {
+    display: flex;
+    flex-direction: column;
+    height: 74vh;
+}
+
+.sidebar-content {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.sidebar-content-form {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.sidebar-content-form::-webkit-scrollbar {
+    display: none;
+}
+.sidebar-footer {
+    display: flex;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 78%;
+}
+
+/* .p-sidebar .p-sidebar-header {
+    padding: 0px;
+} */
+
+/* .p-sidebar .p-sidebar-content {
+    padding: 0px;
+} */
+/* .custom-viewer-tabView .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    color: #ff6600 !important;
+}
+.custom-viewer-tabView li.p-tabview-ink-bar {
+    background-color: #ff6600 !important;
+    color: #ff6600 !important;
+} */
+.hide-scroll {
+    overflow: hidden;
+}

@@ -1,0 +1,26 @@
+@import './variables';
+
+.sidebar {
+    background-color: $sidebar-bg;
+}
+
+// .sidebar-brand {
+//     background-color: $sidebar-brand-bg;
+// }
+.sidebar-brand-full {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+// .sidebar-toggler {
+//     background-color: $sidebar-toggler-bg;
+// }
+
+.sidebar-toggler::before {
+    background-image: url('../assets/images/chevron-left.svg') !important;
+
+    background-size: 1.4rem !important;
+}

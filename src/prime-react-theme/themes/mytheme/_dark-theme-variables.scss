@@ -1,0 +1,44 @@
+$primaryColor: #ff8c00;
+$primaryDarkColor: var(--primary-color);
+$primaryDarkerColor: var(--primary-color);
+$primaryButtonText: #fff;
+$secondaryButtonText: #333;
+$primaryTextColor: #ffffff;
+$secondaryColor: #e4eaf0;
+$secondaryDarkColor: #c9d1e2;
+$secondaryTextColor: #a2a2ab;
+$background-dark: #212631;
+$text-dark: #ffffff;
+$dark-component-bg: #141c26;
+$dark-border: #323a49;
+$hover-bg: #2a303d;
+$tableOddRowBg: #1b1f29;
+
+
+$colors: (
+    'blue': #2196f3,
+    'green': #4caf50,
+    'yellow': #fbc02d,
+    'cyan': #1e484e,
+    'pink': #e91e63,
+    'indigo': #3f51b5,
+    'teal': #009688,
+    'orange': #f57c00,
+    'bluegray': #607d8b,
+    'purple': #9c27b0,
+    'red': #ff4032,
+    'primary': $primaryColor,
+    'secondary': $secondaryColor,
+);
+
+// Mandatory Designer Variables
+@import './variables-dark-theme/general';
+@import './variables-dark-theme/form';
+@import './variables-dark-theme/button';
+@import './variables-dark-theme/panel';
+@import './variables-dark-theme/_data';
+@import './variables-dark-theme/_overlay';
+@import './variables-dark-theme/_message';
+@import './variables-dark-theme/_menu';
+@import './variables-dark-theme/_media';
+@import './variables-dark-theme/_misc';

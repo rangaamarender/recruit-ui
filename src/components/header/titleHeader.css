@@ -1,0 +1,45 @@
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.custom-header-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nextLabelText {
+    font-size: 12px;
+    color: #8b91ae;
+    font-weight: normal;
+    text-align: right;
+    line-height: 16px;
+}
+
+.nextLabelValue {
+    font-size: 12px;
+    color: #5a5f7a;
+    font-weight: 600;
+}
+.circularProgressBar {
+    width: 48px;
+    height: 48px;
+}
+.customDivider {
+    width: 1.5px;
+    height: 30px;
+    background-color: #ddd;
+}

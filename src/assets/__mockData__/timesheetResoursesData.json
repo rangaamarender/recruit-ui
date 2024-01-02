@@ -1,0 +1,77 @@
+{
+  "resourcesData": [
+    {
+      "id": "9dbd89c7-7e07-4eab-a4d5-f0d6d84728db",
+      "name": "Resource 1",
+     
+      "workOrders": [
+        {
+          "id": "WO01",
+          "workOrderName": "Work Order 1",
+          "lastApprovedDate": "2023-11-15",
+          "workOrderStartDate":"2023-05-01",
+          "chargeCode": {
+            "chargeCodeId": "CC01",
+            "tasks": [
+              {
+                "taskId": "T01",
+                "taskDescription": "Task 1 - Description"
+              },
+              {
+                "taskId": "T02",
+                "taskDescription": "Task 2 - Description"
+              }
+            ]
+          }
+        },
+         {
+          "id": "WO02",
+          "workOrderName": "Work Order 2",
+          "lastApprovedDate": "2023-10-10",
+          "workOrderStartDate":"2023-03-01",
+          "chargeCode": {
+            "chargeCodeId": "CC02",
+            "tasks": [
+              {
+                "taskId": "T003",
+                "taskDescription": "Task 003 - Description"
+              },
+              {
+                "taskId": "T004",
+                "taskDescription": "Task 004 - Description"
+              }
+            ]
+          }
+        }
+       
+      ]
+    },
+    {
+      "id": "4db03955-5a45-496a-968e-825df6f486de",
+      "name": "Resource 2",
+      
+      "workOrders": [
+        {
+          "id": "WO03",
+          "workOrderName": "Work Order 3",
+          "lastApprovedDate": "",
+          "workOrderStartDate":"2023-07-01",
+          "chargeCode": {
+            "chargeCodeId": "CC03",
+            "tasks": [
+              {
+                "taskId": "T05",
+                "taskDescription": "Task 5 - Description"
+              },
+              {
+                "taskId": "T06",
+                "taskDescription": "Task 6 - Description"
+              }
+            ]
+          }
+        }
+       
+      ]
+    }
+  ]
+}
